@@ -3,6 +3,10 @@ using System.Collections;
 
 public class LevelManager : MonoBehaviour {
 
-	void LoadLevel() {
+	public void LoadLevel(string name) {
+		Debug.Log ("Level load requested " + name);
+	}
+	public void QuitRequest() {
+		Debug.Log ("Quit requested");
 	}
 }
