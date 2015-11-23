@@ -6,7 +6,7 @@ public class NumberWizard : MonoBehaviour {
 	int max;
 	int min;
 	int guess;
-	int maxGuessesAllowed = 10;
+	public int maxGuessesAllowed = 5;
 
 	public Text text;
 
